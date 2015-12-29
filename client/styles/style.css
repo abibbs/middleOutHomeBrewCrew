@@ -1,13 +1,8 @@
-form button { 
-	width: 9%; 
-	background: rgb(130, 224, 255);
-	border: none; 
-	padding: 2px; }
-*/
 #m { 
 	width:400px; 
 	height:25px; 
 }
+
 #messages { 
 	list-style-type: none; 
 	margin: 0; 
@@ -17,15 +12,21 @@ form button {
 	overflow: auto; 
 	float: initial;
 }
+
 #messages li { 
 	padding: 5px 10px; 
 }
+
 #messages li:nth-child(odd) { 
 	background: #eee; 
 }
 
 #flixHeader {
 	color: #3b5998;
+}
+
+#url {
+	width: 300px;
 }
 
 .ifm {
